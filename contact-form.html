@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="assets/css/contact-form.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/img.png" alt=""></a>
+                </div>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <div class="btn-contact">
+            <a href="contact-form.html">Contact Me</a>
+        </div>
+    </nav>
+
+    
+    <div class="form">
+        <form>
+            <p class="text">Name</p>
+            <input type="text" name="nama" id="nama">
+            <p class="text">Email</p>
+            <input type="text" name="email" id="email">
+            <p class="text">Phone Number</p>
+            <input type="text" name="email" id="nohp">
+            <p class="text">Subject</p>
+            <select name="subjek" id="subjek">
+                <option value="Front End">Front End</option>
+                <option value="Back End">Back End</option>
+                <option value="Full Stack">Full Stack</option>
+            </select>
+            <p class="text">Your Message</p>
+            <textarea name="message" id="message"></textarea><br>
+            <button type="button" onclick="getData()">SUBMIT</button>
+        </form>
+    </div>
+</body>
+<script src="assets/js/contact-form.js"></script>
+</html>
